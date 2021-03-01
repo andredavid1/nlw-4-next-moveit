@@ -1,6 +1,12 @@
-import '../styles/global.css'
+import { Sidebar } from '../components/Sidebar';
+import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
 
-function MyApp({ Component, pageProps }) {
+import type { AppProps } from 'next/app'
+
+import '../styles/globals.css'
+
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Component {...pageProps} />
   )

@@ -1,6 +1,16 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 6.5rem;
+  width: 100%;
+}
+
 .experienceBar {
   display: flex;
   align-items: center;
+
+  width: 90%;
 }
 
 .experienceBar span {

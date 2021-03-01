@@ -1,12 +1,18 @@
 .countdownContainer {
+  margin-left: 5%;
+  width: 90%;
+}
+.timerContainer {
   display: flex;
   align-items: center;
   font-family: Rajdhani;
   font-weight: 600;
   color: var(--title);
+  width: 90%;
+  margin-left: 5%;
 }
 
-.countdownContainer > div {
+.timerContainer > div {
   flex: 1;
   
   display: flex;
@@ -20,19 +26,19 @@
   text-align: center;
 }
 
-.countdownContainer > div span {
+.timerContainer > div span {
   flex: 1;
 }
 
-.countdownContainer > div span:first-child {
+.timerContainer > div span:first-child {
   border-right: 1px solid #f0f1f3;
 }
 
-.countdownContainer > div span:last-child {
+.timerContainer > div span:last-child {
   border-left: 1px solid #f0f1f3;
 }
 
-.countdownContainer > span {
+.timerContainer > span {
   font-size: 6.5rem;
   margin: 0 0.5rem;
 }
